@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import inforetrieval.DocProcessor;
+
 public class DocProcessorSimpleTFIDFTest {
 
 	private static DocProcessor dp;
@@ -19,12 +21,12 @@ public class DocProcessorSimpleTFIDFTest {
 	
 	@Test
 	public void testTFIDFDoc1() {		
-		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc1) ", 0.0, dp.tfidf("example", doc1), 0.001);
+		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc1) ", 0.0, dp.getTFIDF("example", doc1), 0.001);
 	}
 
 	@Test
 	public void testTFIDFDoc2() {		
-		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc2) ", 0.129, dp.tfidf("example", doc2), 0.001);
+		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc2) ", 0.129, dp.getTFIDF("example", doc2), 0.001);
 	}
 
 	@Test

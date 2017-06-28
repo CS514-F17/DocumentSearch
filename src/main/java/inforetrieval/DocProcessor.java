@@ -1,4 +1,4 @@
-package docsimilarity;
+package inforetrieval;
 
 //TODO: Import appropriate packages.
 
@@ -90,7 +90,7 @@ public class DocProcessor {
 	 * @param doc
 	 * @return
 	 */
-	public double tfidf(String word, String doc) {		
+	public double getTFIDF(String word, String doc) {		
 		//TODO: Replace with your code.
 		return 0;
 	}	
