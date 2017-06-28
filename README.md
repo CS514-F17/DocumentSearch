@@ -27,13 +27,9 @@ http://hadoopgeek.com/cosine-similarity-simple-example/
 
 ### Submission Requirements
 
-1. For this assignment, you will submit four files: `Pokemon.java`, `Pokedex.java`, `PokedexBuilder.java`, and `PokemonDriver.java`
 
-2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-S17/notes/blob/master/style.md).
+2. Make sure your code follows all requirements in the Style Guidelines.
 
-3. Follow the instructions in the [SVN Guide](https://github.com/CS112-S17/notes/blob/master/svn_guide.md) for submitting your solution by the deadline.
-
-4. Make sure you have submitted your work in an SVN directory: `https://www.cs.usfca.edu/svn/<username>/cs112/project1`
 
 ### Grading Rubric
 
