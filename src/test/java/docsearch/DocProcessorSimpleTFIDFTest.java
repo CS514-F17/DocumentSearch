@@ -1,11 +1,9 @@
-package docsimilarity;
+package docsearch;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import inforetrieval.DocProcessor;
 
 public class DocProcessorSimpleTFIDFTest {
 

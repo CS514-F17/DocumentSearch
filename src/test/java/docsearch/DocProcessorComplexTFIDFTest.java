@@ -1,17 +1,16 @@
-package docsimilarity;
+package docsearch;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import inforetrieval.DocProcessor;
-
-public class DocProcessorComplexTest {
+public class DocProcessorComplexTFIDFTest {
 
 	private static DocProcessor dp;
 	private static String doc1 = "input/prideandprejudice.txt";
-	private static String doc2 = "input/warandpeace.txt";
+	private static String doc2 = "input/donquijotespan.txt";
+	
 	
 	@BeforeClass
 	public static void setUpBeforeClass() {
@@ -19,8 +18,13 @@ public class DocProcessorComplexTest {
 	}
 	
 	@Test
-	public void testCosineSimilarity() {		
-		assertEquals("Invalid Cosine Similarity value for " + doc1 + " " + doc2, 0.9243, dp.getCosineSimilarity(), 0.001);
+	public void testTFIDFDoc1() {		
+		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc1) ", 0.0, dp.getTFIDF("el", doc1), 0.001);
+	}
+
+	@Test
+	public void testTFIDFDoc2() {		
+		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc2) ", 0.006315, dp.getTFIDF("el", doc2), 0.001);
 	}
 
 	@Test
@@ -30,7 +34,7 @@ public class DocProcessorComplexTest {
 
 	@Test
 	public void testDoc2Lines() {
-		assertEquals("Incorrect line count for " + doc2, 66051, dp.getDoc2Lines());
+		assertEquals("Incorrect line count for " + doc2, 37861, dp.getDoc2Lines());
 	}
 	
 	@Test
@@ -40,7 +44,7 @@ public class DocProcessorComplexTest {
 
 	@Test
 	public void testDoc2Words() {
-		assertEquals("Incorrect word count for " + doc2, 580838, dp.getDoc2Words());
+		assertEquals("Incorrect word count for " + doc2, 391352, dp.getDoc2Words());
 	}
 
 }

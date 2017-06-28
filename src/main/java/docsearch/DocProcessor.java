@@ -1,4 +1,4 @@
-package inforetrieval;
+package docsearch;
 
 //TODO: Import appropriate packages.
 
