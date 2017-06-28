@@ -3,6 +3,8 @@ Project 1 - Document Search Helper
 
 ### Due TBD
 
+*This project description is incomplete and subject to change.*
+
 The goal of this project is to implement two techniques used in data mining: cosine similarity and term frequency-inverse document frequency (TF-IDF). You will use the following programming concepts:
 
 - File Input
