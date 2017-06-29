@@ -132,9 +132,9 @@ The TF-IDF portion of the assignment is designed to be more challenging and is w
 
 ### Submission Requirements
 
-1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. 
+1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Document Search Helper](https://classroom.github.com/assignment-invitations/65d0f58c1b59da38b24354cab60158b1)
 2. For full credit, make sure to follow all [Style Guidelines](https://github.com/CS514-F17/notes/blob/master/Admin/style.md). Points will be deducted for each violation.
-
+3. Revisit the notes about setting up your development environment to make sure you are using github correctly: [Setting up your development environment](https://github.com/CS514-F17/notes/blob/master/Admin/devenvironment.md)
 
 ### Grading Rubric
 
