@@ -1,11 +1,11 @@
-Project 1 - Document Search Helper
-==================================
+Lab 1 - Document Search Helper
+==============================
 
 ### Due TBD
 
-*This project description is incomplete and subject to change.*
+*This lab description is incomplete and subject to change.*
 
-The goal of this project is to implement two techniques used in data mining: cosine similarity and term frequency-inverse document frequency (TF-IDF). You will use the following programming concepts:
+The goal of this lab is to implement two techniques used in data mining: cosine similarity and term frequency-inverse document frequency (TF-IDF). You will use the following programming concepts:
 
 - File Input
 - Iteration
@@ -132,7 +132,7 @@ The TF-IDF portion of the assignment is designed to be more challenging and is w
 
 ### Submission Requirements
 
-1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. 
+1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Lab 1]()
 2. For full credit, make sure to follow all [Style Guidelines](https://github.com/CS514-F17/notes/blob/master/Admin/style.md). Points will be deducted for each violation.
 
 
