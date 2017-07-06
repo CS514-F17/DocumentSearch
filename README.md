@@ -1,5 +1,5 @@
-Lab 1 - Document Search Helper
-==============================
+Project 1 - Document Search Helper
+==================================
 
 ### Due TBD
 
