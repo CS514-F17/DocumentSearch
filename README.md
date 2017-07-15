@@ -1,7 +1,8 @@
 Lab 1 - Document Search Helper
 ==============================
 
-### Due TBD
+### Functionality Deadline: TBD
+### Final Deadline: TBD
 
 *This lab description is incomplete and subject to change.*
 
@@ -142,14 +143,14 @@ The TF-IDF portion of the assignment is designed to be more challenging and is w
 | ------ | -------- |  
 | 30 | DocProcessorSimpleTest |
 | 30 | DocProcessorComplexTest | 
-| 5 | DocProcessorErrorHandlingTest | 
-| 5 | DocProcessorSimpleTFIDFTest |
+| 10 | DocProcessorErrorHandlingTest | 
+| 10 | DocProcessorSimpleTFIDFTest |
 | 5 | DocProcessorComplexTFIDFTest | | 
 | 15 | Design |
-| 10 | Style |
 
 Partial credit may be awarded for partial functionality and/or partially correct design or style elements.
 
 ### Academic Dishonesty
 
 Any work you submit is expected to be your own original work. If you use any web resources in developing your code you are strongly advised to cite those resources. The only exception to this rule is code that is posted on the class website. The URL of the resource you used in a comment in your code is fine. If I google even a single line of uncited code and find it on the internet you may get a 0 on the assignment or an F in the class. You may also get a 0 on the assignment or an F in the class if your solution is at all similar to that of any other student.
+
