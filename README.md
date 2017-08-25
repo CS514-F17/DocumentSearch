@@ -1,8 +1,8 @@
 Lab 1 - Document Search Helper
 ==============================
 
-### Functionality Deadline: TBD
-### Final Deadline: TBD
+### Functionality Deadline: Tuesday, September 5, 2017 - 5pm
+### Final Deadline: Sunday, September 24, 2017 - 5pm
 
 *This lab description is incomplete and subject to change.*
 
@@ -133,7 +133,7 @@ The TF-IDF portion of the assignment is designed to be more challenging and is w
 
 ### Submission Requirements
 
-1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Lab 1]()
+1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Lab 1](https://classroom.github.com/a/PC9w7b_5)
 2. For full credit, make sure to follow all [Style Guidelines](https://github.com/CS514-F17/notes/blob/master/Admin/style.md). Points will be deducted for each violation.
 
 
