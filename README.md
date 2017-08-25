@@ -120,7 +120,7 @@ You are expected to create additional classes and methods as appropriate. In my 
 
 :warning: Do **not** modify the test cases provided. 
 
-The TF-IDF portion of the assignment is designed to be more challenging and is worth only 10% of the final grade. It is expected that you will need to do some additional *independent* research on TF-IDF to complete your solution. You may still earn 90% of the grade if you do pass `DocProcessorSimpleTFIDFTest` and `DocProcessorComplexTFIDFTest`.
+The TF-IDF portion of the assignment is designed to be more challenging and is worth only 10% of the final grade. It is expected that you will need to do some additional *independent* research on TF-IDF to complete your solution. You may still earn 90% of the grade if you do not pass `DocProcessorSimpleTFIDFTest` and `DocProcessorComplexTFIDFTest`.
 
 
 ### Hints, Notes, and Requirements (read carefully!)
