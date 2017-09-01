@@ -1,7 +1,7 @@
 Lab 1 - Document Search Helper
 ==============================
 
-### Functionality Deadline: Tuesday, September 5, 2017 - 5pm
+### Functionality Deadline: <del>Tuesday, September 5, </del> Thursday September 7, 2017 - 5pm
 ### Final Deadline: Sunday, September 24, 2017 - 5pm
 
 The goal of this lab is to implement two techniques used in data mining: cosine similarity and term frequency-inverse document frequency (TF-IDF). You will use the following programming concepts:
