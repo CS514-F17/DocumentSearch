@@ -1,4 +1,4 @@
-package docsearch;
+package docsimilarity;
 
 import static org.junit.Assert.assertEquals;
 

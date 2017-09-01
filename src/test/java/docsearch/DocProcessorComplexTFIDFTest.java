@@ -1,4 +1,4 @@
-package docsearch;
+package docsimilarity;
 
 import static org.junit.Assert.assertEquals;
 
@@ -19,12 +19,12 @@ public class DocProcessorComplexTFIDFTest {
 	
 	@Test
 	public void testTFIDFDoc1() {		
-		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc1) ", 0.0, dp.getTFIDF("el", doc1), 0.001);
+		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc1) ", 0.0, dp.tfidf("el", doc1), 0.001);
 	}
 
 	@Test
 	public void testTFIDFDoc2() {		
-		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc2) ", 0.006315, dp.getTFIDF("el", doc2), 0.001);
+		assertEquals("Invalid TF-IDF value for tfidf(\"example\", doc2) ", 0.006315, dp.tfidf("el", doc2), 0.001);
 	}
 
 	@Test
@@ -39,12 +39,12 @@ public class DocProcessorComplexTFIDFTest {
 	
 	@Test
 	public void testDoc1Words() {
-		assertEquals("Incorrect word count for " + doc1, 127032, dp.getDoc1Words());
+		assertEquals("Incorrect word count for " + doc1, 124543, dp.getDoc1Words());
 	}
 
 	@Test
 	public void testDoc2Words() {
-		assertEquals("Incorrect word count for " + doc2, 391352, dp.getDoc2Words());
+		assertEquals("Incorrect word count for " + doc2, 384243, dp.getDoc2Words());
 	}
 
 }
